@@ -1,4 +1,4 @@
-# nlp-tk
+# nlpflow
 
 A modern, comprehensive toolkit for Natural Language Processing (NLP) that provides powerful text processing capabilities and state-of-the-art NLP functionalities.
 
@@ -31,7 +31,7 @@ A modern, comprehensive toolkit for Natural Language Processing (NLP) that provi
 
 ## Overview
 
-nlp-tk is designed to make NLP accessible, efficient, and production-ready. Built with modern software engineering practices, it combines the ease of use found in frameworks like spaCy with the flexibility of NLTK and the power of transformer-based models.
+nlpflow is designed to make NLP accessible, efficient, and production-ready. Built with modern software engineering practices, it combines the ease of use found in frameworks like spaCy with the flexibility of NLTK and the power of transformer-based models.
 
 **Design Principles:**
 - **Simplicity**: Intuitive API that gets you started in minutes
@@ -67,14 +67,14 @@ nlp-tk is designed to make NLP accessible, efficient, and production-ready. Buil
 ### Using pip (Recommended)
 
 ```bash
-pip install nlp-tk
+pip install nlpflow
 ```
 
 ### From source
 
 ```bash
-git clone https://github.com/skushagra/nlp-tk.git
-cd nlp-tk
+git clone https://github.com/skushagra/nlpflow.git
+cd nlpflow
 pip install -e .
 ```
 
@@ -82,17 +82,17 @@ pip install -e .
 
 For transformer models:
 ```bash
-pip install nlp-tk[transformers]
+pip install nlpflow[transformers]
 ```
 
 For visualization:
 ```bash
-pip install nlp-tk[viz]
+pip install nlpflow[viz]
 ```
 
 For all features:
 ```bash
-pip install nlp-tk[all]
+pip install nlpflow[all]
 ```
 
 ## Quick Start
@@ -440,7 +440,7 @@ nlptk.visualize.plot_confusion_matrix(cm, labels=['positive', 'negative', 'neutr
 
 ## Architecture
 
-nlp-tk is built on a modular architecture:
+nlpflow is built on a modular architecture:
 
 ```
 nlptk/
@@ -465,7 +465,7 @@ nlptk/
 
 ## Performance
 
-nlp-tk is optimized for both speed and accuracy:
+nlpflow is optimized for both speed and accuracy:
 
 | Task | Speed (docs/sec) | Memory (MB) | Accuracy |
 |------|------------------|-------------|----------|
@@ -613,7 +613,7 @@ print(resolved)
 - `span.end`: End token index
 - `span.label_`: Span label (for entities)
 
-For full API documentation, visit [https://nlp-tk.readthedocs.io](https://nlp-tk.readthedocs.io)
+For full API documentation, visit [https://nlpflow.readthedocs.io](https://nlpflow.readthedocs.io)
 
 ## Contributing
 
@@ -623,8 +623,8 @@ We welcome contributions! Please see our [Contributing Guide](CONTRIBUTING.md) f
 
 ```bash
 # Clone the repository
-git clone https://github.com/skushagra/nlp-tk.git
-cd nlp-tk
+git clone https://github.com/skushagra/nlpflow.git
+cd nlpflow
 
 # Create a virtual environment
 python -m venv venv
@@ -683,9 +683,9 @@ mypy nlptk/
 - [Coursera NLP Specialization](https://www.coursera.org/specializations/natural-language-processing)
 
 ### Community
-- [GitHub Discussions](https://github.com/skushagra/nlp-tk/discussions)
-- [Stack Overflow Tag](https://stackoverflow.com/questions/tagged/nlp-tk)
-- [Discord Server](https://discord.gg/nlp-tk)
+- [GitHub Discussions](https://github.com/skushagra/nlpflow/discussions)
+- [Stack Overflow Tag](https://stackoverflow.com/questions/tagged/nlpflow)
+- [Discord Server](https://discord.gg/nlpflow)
 - [Twitter](https://twitter.com/nlptk_official)
 
 ## License
@@ -694,7 +694,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ## Acknowledgments
 
-nlp-tk builds upon the excellent work of the NLP research community and stands on the shoulders of giants:
+nlpflow builds upon the excellent work of the NLP research community and stands on the shoulders of giants:
 
 - The spaCy team for setting the standard for production NLP
 - The NLTK team for making NLP education accessible
@@ -704,6 +704,6 @@ nlp-tk builds upon the excellent work of the NLP research community and stands o
 
 ---
 
-**Made with ❤️ by the nlp-tk team**
+**Made with ❤️ by the nlpflow team**
 
-For questions, feedback, or support, please [open an issue](https://github.com/skushagra/nlp-tk/issues) or join our [community discussions](https://github.com/skushagra/nlp-tk/discussions).
+For questions, feedback, or support, please [open an issue](https://github.com/skushagra/nlpflow/issues) or join our [community discussions](https://github.com/skushagra/nlpflow/discussions).
